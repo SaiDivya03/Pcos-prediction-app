@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load model, scaler, and column names
-model, scaler, feature_names = joblib.load("../models/pcos_model.pkl")
+model, scaler, feature_names = joblib.load("./pcos_model.pkl")
 
 # Streamlit app layout
 st.set_page_config(page_title="PCOS Prediction App", layout="centered")
